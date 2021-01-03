@@ -7,32 +7,32 @@ import { Section, Container } from '@components/global';
 
 const TEAM = [
   {
-    name: 'Josh Peck',
+    name: 'Mang Aep',
     image: 'josh.jpg',
-    role: 'Founder',
+    role: 'Pendiri',
   },
   {
-    name: 'Lisa Haydon',
+    name: 'Mang Dorakim',
     image: 'lisa.jpg',
-    role: 'Art Director',
+    role: 'Asisten',
   },
   {
-    name: 'Ashlyn Harris',
+    name: 'Teh Yuli',
     image: 'ashlyn.jpg',
-    role: 'Frontend Engineer',
+    role: 'Barista',
   },
   {
-    name: 'Todd Joseph',
+    name: 'Om Bram',
     image: 'todd.jpg',
     role: 'Designer',
   },
   {
-    name: 'Martin White',
+    name: 'Om Burhan',
     image: 'martin.jpg',
-    role: 'Backend Engineer',
+    role: 'Bendahara',
   },
   {
-    name: 'Rose Leslie',
+    name: 'Ceu Ijah',
     image: 'rose.jpg',
     role: 'Marketing',
   },
@@ -69,7 +69,7 @@ const Team = () => (
     render={data => (
       <Section id="team" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>The Team</h1>
+          <h1>Anggota Kami</h1>
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(
