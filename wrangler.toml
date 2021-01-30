@@ -1,12 +1,12 @@
-name = "aep-my-id"
+name = "warkop"
 type = "javascript"
-account_id = "dfe78c1798e248b4c939a33313d0d70c"
+account_id = "79acc6c68003ac9ef4666a7a5ccf8761"
 workers_dev = true
 
 [env.production]
 workers_dev = false
-route = "https://a.idan.my.id/*"
-zone_id = "895e17b57d742fe70252f60400ddf791"
+route = "https://www.aep.my.id/*"
+zone_id = "ea04b7d9d655c424ca4ccf1595000d43"
 
 [site]
 bucket = "./"
