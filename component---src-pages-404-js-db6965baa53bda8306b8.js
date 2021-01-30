@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{w2l6:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),l=a.n(t),r=a("tioU"),s=a("DDoQ");n.default=function(){return l.a.createElement(r.a,null,l.a.createElement(s.a,null,l.a.createElement("h1",null,"NOT FOUND"),l.a.createElement("p",null,"Sepertinya Kamu Tersesat kasian... the sadness.")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-db6965baa53bda8306b8.js.map
